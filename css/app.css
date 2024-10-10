@@ -73,11 +73,6 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-
-
-
-
-
 /* End of Bell's Reset */
 
 /* Begin My CSS */
@@ -122,5 +117,11 @@ padding: 20px;
 
 p.thick {
 font-weight: bold; 
+}
+
+/* For mobile phones: */
+
+[class*="col-"] {
+  width: 100%;
 }
 
